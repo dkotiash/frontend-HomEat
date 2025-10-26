@@ -3,4 +3,4 @@ function oddNumbersOnly(arr) {
 // We could also explictly say n % 2 === 1
     return arr.filter(n => n % 2);
 }
-module.exports = { oddNumbersOnly };
+export default { oddNumbersOnly };

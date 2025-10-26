@@ -1,4 +1,4 @@
-const example = require('./example');
+import example from "./example";
 test('Should have 5 odd numbers in [1, 10]'
     , () => {
         const oneToTen = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
